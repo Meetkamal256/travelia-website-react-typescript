@@ -1,5 +1,8 @@
 import "./navbar.css";
 import Logo from "../../assets/logo.svg";
+import { MdOutlineMenu } from "react-icons/md";
+import { IoMdClose } from "react-icons/io";
+
 const Header = () => {
   return (
     <nav>
@@ -7,6 +10,7 @@ const Header = () => {
         <div className="nav__logo">
           <img src={Logo} alt="" />
         </div>
+
         <ul className="nav__items">
           <li>
             <a href="#">Home</a>
@@ -24,6 +28,18 @@ const Header = () => {
             <a href="#">Contact</a>
           </li>
         </ul>
+
+        <div className="nav__signin-signup">
+          <a href="#">Login</a>
+          <a href="#">Signup</a>
+        </div>
+
+        <button id="menu-btn">
+          <IoMdClose />
+        </button>
+        <button id="menu-btn">
+          <MdOutlineMenu />
+        </button>
       </div>
     </nav>
   );
