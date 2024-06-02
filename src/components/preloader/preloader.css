@@ -8,9 +8,6 @@
   display: grid;
   place-items: center;
   z-index: 6;
-}
-
-.preloader.remove {
   visibility: hidden;
   opacity: 0;
 }
