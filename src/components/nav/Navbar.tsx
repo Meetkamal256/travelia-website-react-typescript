@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="nav__logo">
           <img src={Logo} alt="" width="187" height="38" />
         </div>
-        
+
         <ul className="nav__items">
           <li>
             <a href="#">Home</a>
