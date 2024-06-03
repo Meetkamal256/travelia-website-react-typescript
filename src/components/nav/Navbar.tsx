@@ -1,14 +1,12 @@
 import "./navbar.css";
 import Logo from "../../assets/logo.svg";
-import { MdOutlineMenu } from "react-icons/md";
-import { IoMdClose } from "react-icons/io";
 
-const Header = () => {
+const Navbar = () => {
   return (
-    <nav>
+    <nav className="">
       <div className="container nav__container">
         <div className="nav__logo">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="" width="187" height="38" />
         </div>
 
         <ul className="nav__items">
@@ -28,21 +26,58 @@ const Header = () => {
             <a href="#">Contact</a>
           </li>
         </ul>
-
+        
         <div className="nav__signin-signup">
-          <a href="#">Login</a>
-          <a href="#">Signup</a>
+          <a href="#" className="btn btn-primary">
+            Login
+          </a>
+          <a href="#" className="btn btn-primary">
+            Signup
+          </a>
         </div>
+        
+        {/* Hamburger button */}
+        <button id="menu-btn" className="hamburger" type="button">
+          <span className="hamburger-top"></span>
+          <span className="hamburger-middle"></span>
+          <span className="hamburger-bottom"></span>
+        </button>
+        
+        {/* Mobile menu */}
+        <div className="mobile__menu open">
+          <div className="mobile-nav__logo">
+            <img src={Logo} alt="" width="187" height="38" />
+          </div>
+          <ul className="mobile-nav__items">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
 
-        <button id="menu-btn">
-          <IoMdClose />
-        </button>
-        <button id="menu-btn">
-          <MdOutlineMenu />
-        </button>
+          <div className="mobile-nav__signin-signup">
+            <a href="#" className="btn btn-primary">
+              Login
+            </a>
+            <a href="#" className="btn btn-primary">
+              Signup
+            </a>
+          </div>
+        </div>
       </div>
     </nav>
   );
 };
 
-export default Header;
+export default Navbar;

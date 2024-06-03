@@ -3,7 +3,7 @@ import Destination from "./components/destination/Destination";
 import Experience from "./components/experience/Experience";
 import Footer from "./components/footer/Footer";
 import Gallery from "./components/gallery/Gallery";
-import Header from "./components/nav/Navbar";
+import Navbar from "./components/nav/Navbar";
 import Hero from "./components/hero/Hero";
 import Preloader from "./components/preloader/Preloader";
 import Service from "./components/service/Service";
@@ -13,14 +13,14 @@ function App() {
   return (
     <>
       <Preloader />
-      <Header />
-      <Hero />
+      <Navbar />
+      {/* <Hero />
       <Service />
       <Destination />
       <Experience />
       <Gallery />
       <CTA />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
