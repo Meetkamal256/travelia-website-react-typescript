@@ -14,13 +14,13 @@ function App() {
     <>
       <Preloader />
       <Navbar />
-      {/* <Hero />
+      <Hero />
       <Service />
       <Destination />
       <Experience />
       <Gallery />
       <CTA />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

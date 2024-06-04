@@ -137,7 +137,7 @@ nav.active {
   .nav__logo img {
     width: 180px;
   }
-
+  
   .nav__items {
     gap: 70px;
   }
@@ -152,7 +152,7 @@ nav.active {
   .nav__items {
     gap: 30px;
   }
-
+  
   .nav__signin-signup {
     display: flex;
     align-items: center;
