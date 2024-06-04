@@ -148,11 +148,11 @@ nav.active {
   .nav__logo img {
     width: 160px;
   }
-  
+
   .nav__items {
     gap: 30px;
   }
-  
+
   .nav__signin-signup {
     display: flex;
     align-items: center;
@@ -166,18 +166,18 @@ nav.active {
   .nav__signin-signup {
     display: none;
   }
-  
+
   .nav__logo img {
     width: 160px;
   }
-  
+
   .hamburger {
     display: block;
     position: absolute;
     top: 20;
     right: 20px;
   }
-  
+
   .mobile__menu {
     display: flex;
     flex-direction: column;
@@ -193,28 +193,28 @@ nav.active {
     transition: transform 400ms var(--cubic-out);
     visibility: hidden;
   }
-  
+
   .mobile__menu.open {
     transform: translateX(-350px);
     transition-duration: 500ms;
     visibility: visible;
   }
-  
+
   .mobile__menu .mobile-nav__logo img {
     width: 160px;
   }
-  
+
   .mobile__menu .mobile-nav__items {
     padding-block-start: 50px;
     display: flex;
     flex-direction: column;
     gap: 3rem;
   }
-  
+
   .mobile__menu .mobile-nav__items li:hover {
-      transform: translate(10px)
+    transform: translate(10px);
   }
-  
+
   .mobile__menu .mobile-nav__items li a::before {
     content: "";
     position: absolute;
@@ -228,15 +228,18 @@ nav.active {
     opacity: 0;
     transition: var(--transition-1);
   }
-  
+
   .mobile__menu .mobile-nav__items li a:is(:hover, :focus-visible)::before {
     opacity: 1;
   }
-  
+
   .mobile__menu .mobile-nav__signin-signup {
     display: flex;
-    gap: 3rem;
-    margin-block-start: 50px;
+    align-items: center;
+    justify-content: space-around;
+    margin-block-start: auto;
+    border-block-start: 1px solid var(--border-gainsboro);
+    padding-block-start: 20px;
   }
 }
 
@@ -246,9 +249,8 @@ nav.active {
     max-width: 100%;
     right: -100%;
   }
-  
+
   .mobile__menu.open {
     transform: translateX(-100%);
   }
 }
-
