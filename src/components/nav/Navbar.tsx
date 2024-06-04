@@ -28,7 +28,7 @@ const Navbar = () => {
             <a href="#">Contact</a>
           </li>
         </ul>
-
+        
         <div className="nav__signin-signup">
           <a href="#" className="btn btn-primary">
             Login
