@@ -1,0 +1,9 @@
+.section__subtitle {
+  text-transform: uppercase;
+  color: var(--bg-majorelle-blue);
+  font-weight: var(--weight-semiBold);
+}
+
+.section__title {
+  margin-block: 10px;
+}

@@ -17,7 +17,13 @@ const Service = () => {
           return (
             <div className="service__card" key={id}>
               <div className="card__icon">
-                <img src={icon} alt="" />
+                <img
+                  src={icon}
+                  alt="icon"
+                  width="60"
+                  height="60"
+                  loading="lazy"
+                />
               </div>
               <h3 className="title card__title">{title}</h3>
               <p className="card__text">{text}</p>
