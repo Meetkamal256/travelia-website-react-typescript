@@ -4,8 +4,9 @@ import Logo from "../../assets/logo.svg";
 
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState<boolean>(false);
+  const [isNavActive, setIsNavActive] = useState(false);
   return (
-    <nav className="">
+    <nav className={`${isNavActive ? "active" : ""}`}>
       <div className="container nav__container">
         <div className="nav__logo">
           <img src={Logo} alt="" width="187" height="38" />
@@ -28,7 +29,7 @@ const Navbar = () => {
             <a href="#">Contact</a>
           </li>
         </ul>
-        
+
         <div className="nav__signin-signup">
           <a href="#" className="btn btn-primary">
             Login
@@ -72,7 +73,7 @@ const Navbar = () => {
               <a href="#">Contact</a>
             </li>
           </ul>
-          
+
           <div className="mobile-nav__signin-signup">
             <a href="#" className="btn btn-primary">
               Login

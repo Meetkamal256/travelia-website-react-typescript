@@ -13,7 +13,7 @@ const Hero = () => {
           <p className="hero__subtitle">
             Explore the world <img src={heroIcon} alt="world icon" />
           </p>
-          <h1 className="hero__title">
+          <h1 className="hero__title title">
             It's a Big World Out There, Go Explore
           </h1>
           <p className="hero__text">
@@ -27,16 +27,24 @@ const Hero = () => {
             </a>
             <button className="hero__btn">
               <div className="btn__img">
-                <img src={heroBtnImg} alt="our story" />
-                <FaPlay />
+                <img
+                  src={heroBtnImg}
+                  alt="our story"
+                  width="100"
+                  height="100"
+                  className="img-cover"
+                />
+              
+                  <FaPlay className="hero__icon" />
+              
               </div>
               <p>Watch Our Story</p>
             </button>
           </div>
         </div>
-
+        
         <figure className="hero__banner">
-          <img src={heroBanner} alt="hero banner" />
+          <img src={heroBanner} alt="hero banner" className="w-100" />
         </figure>
       </div>
     </section>
