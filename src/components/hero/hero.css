@@ -73,12 +73,12 @@
   .hero__container {
     grid-template-columns: 1fr;
   }
-
+  
   .hero__banner {
     max-width: 550px;
     margin-inline: auto;
   }
-
+  
   .wrapper {
     flex-wrap: wrap;
   }
@@ -88,7 +88,7 @@
   #hero {
     padding-block-start: 100px;
   }
-
+  
   .btn__img {
     height: 60px;
     width: 60px;
