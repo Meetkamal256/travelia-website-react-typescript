@@ -88,4 +88,9 @@
   #hero {
     padding-block-start: 100px;
   }
+
+  .btn__img {
+    height: 60px;
+    width: 60px;
+  }
 }
