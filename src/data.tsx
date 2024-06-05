@@ -47,6 +47,6 @@ export const serviceList = [
     id: 3,
     icon: icon3,
     title: "Easy Booking",
-    text: " With an easy and fast ticket purchase process.",
+    text: "With an easy and fast ticket purchase process.",
   },
 ];
