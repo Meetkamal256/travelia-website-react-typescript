@@ -6,9 +6,32 @@
 
 .desti__card .card__banner {
   position: relative;
+  border-radius: var(--radius-30);
 }
 
-.desti__card .card__banner img {
+.card__banner img {
   background-color: var(--bg-gainsboro);
-  border-radius: var(--radius-30);
+}
+
+.desti__card .card__banner .img-cover:is(:hover, :focus-within) {
+  transform: scale(1.05);
+}
+
+.desti__card .card__price {
+  color: var(--bg-majorelle-blue);
+  background: var(--bg-white);
+  padding: 5px 15px;
+  max-width: fit-content;
+  border-radius: var(--radius-pill);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.8rem;
+  font-weight: var(--weight-bold);
+}
+
+.img-holder {
+  aspect-ratio: var(--width) / var(--height);
+  background-color: var(--bg-gainsboro);
+  overflow: hidden;
 }

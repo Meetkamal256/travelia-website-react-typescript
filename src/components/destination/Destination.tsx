@@ -12,14 +12,20 @@ const Destination = () => {
             const { id, image, price, title, address, review, rating } = list;
             return (
               <div className="desti__card" key={id}>
-                <div className="card__banner">
+                <div
+                  className="card__banner img-holder"
+                  style={
+                    {
+                      "--width": "600px",
+                      "--height": "650px",
+                    } as React.CSSProperties
+                  }
+                >
                   <img
                     src={image}
                     alt=""
                     loading="lazy"
                     className="img-cover"
-                    width="600"
-                    height="650"
                   />
                   <span className="card__price">{price}</span>
                 </div>
