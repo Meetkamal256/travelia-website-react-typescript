@@ -1,3 +1,4 @@
+          <p className="section__subtitle">What we Serve</p>
 import "./service.css";
 import { serviceList } from "../../data";
 
@@ -6,7 +7,6 @@ const Service = () => {
     <section id="service">
       <div className="container service__container">
         <div className="title__wrapper">
-          <p className="section__subtitle">What we Serve</p>
           <h2 className="title section__title">Top Values For You</h2>
           <p className="section__text">
             Try a variety of benefits when using our services.
