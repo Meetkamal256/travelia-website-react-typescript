@@ -1,5 +1,6 @@
 import "./destination.css";
 import { destinationList } from "../../data";
+import { FaRegStar } from "react-icons/fa";
 
 const Destination = () => {
   return (
@@ -30,15 +31,15 @@ const Destination = () => {
                   <span className="card__price">{price}</span>
                 </div>
                 <div className="card__content">
-                  <h3 className="title">
-                    <a href="" className="card__title">
-                      {title}
-                    </a>
+                  <h3 className="title card__title">
+                    <a href="">{title}</a>
                   </h3>
                   <address className="card__text">{address}</address>
                   <div className="card__rating">
                     <span className="span">{review}</span>
-                    <p className="rating__text">{rating}</p>
+                    <p className="rating__text">
+                      <FaRegStar /> {rating}
+                    </p>
                   </div>
                 </div>
               </div>
