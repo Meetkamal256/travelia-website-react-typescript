@@ -2,6 +2,8 @@ import icon1 from "./assets/service-icon-1.svg";
 import icon2 from "./assets/service-icon-2.svg";
 import icon3 from "./assets/service-icon-3.svg";
 
+import image1 from "./assets/destination-1.jpg";
+
 export const pageLinks = [
   {
     id: 1,
@@ -48,5 +50,17 @@ export const serviceList = [
     icon: icon3,
     title: "Easy Booking",
     text: "With an easy and fast ticket purchase process.",
+  },
+];
+
+export const destinationList = [
+  {
+    id: 1,
+    image: image1,
+    price: "$340",
+    title: "Enjoy the Beauty of the del Pincio",
+    address: "Rome, Italy",
+    rating: 4.7,
+    review: "(11.1k Review)",
   },
 ];
