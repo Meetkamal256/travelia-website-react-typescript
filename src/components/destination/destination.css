@@ -1,0 +1,14 @@
+.desti__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 35px;
+}
+
+.desti__card .card__banner {
+  position: relative;
+}
+
+.desti__card .card__banner img {
+  background-color: var(--bg-gainsboro);
+  border-radius: var(--radius-30);
+}

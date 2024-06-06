@@ -16,9 +16,10 @@ const Destination = () => {
                   <img
                     src={image}
                     alt=""
+                    loading="lazy"
+                    className="img-cover"
                     width="600"
                     height="650"
-                    loading="lazy"
                   />
                   <span className="card__price">{price}</span>
                 </div>
