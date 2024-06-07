@@ -168,6 +168,7 @@ h3 {
 }
 
 .btn {
+  display: block;
   height: 60px;
   color: var(--text-white);
   padding-inline: 40px;
