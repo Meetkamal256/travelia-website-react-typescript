@@ -12,10 +12,10 @@ const Gallery = () => {
       <div className="container gallery__container">
         <p className="section__subtitle">PHOTO GALLERY</p>
         <h2 className="section__title">Photo's From Travelers</h2>
-        <ul className="gallery-list">
-          <li className="gallery-item">
+        <ul className="gallery__list">
+          <li className="gallery__item">
             <figure
-              className="item-banner img-holder"
+              className="item__banner img-holder"
               style={
                 {
                   "--width": "700px",
@@ -33,9 +33,9 @@ const Gallery = () => {
               />
             </figure>
           </li>
-          <li className="gallery-item">
+          <li className="gallery__item">
             <figure
-              className="item-banner img-holder"
+              className="item__banner img-holder"
               style={
                 {
                   "--width": "700px",
@@ -53,9 +53,9 @@ const Gallery = () => {
               />
             </figure>
           </li>
-          <li className="gallery-item">
+          <li className="gallery__item">
             <figure
-              className="item-banner img-holder"
+              className="item__banner img-holder"
               style={
                 {
                   "--width": "700px",
@@ -73,9 +73,9 @@ const Gallery = () => {
               />
             </figure>
           </li>
-          <li className="gallery-item">
+          <li className="gallery__item">
             <figure
-              className="item-banner img-holder"
+              className="item__banner img-holder"
               style={
                 {
                   "--width": "700px",
@@ -93,9 +93,9 @@ const Gallery = () => {
               />
             </figure>
           </li>
-          <li className="gallery-item">
+          <li className="gallery__item">
             <figure
-              className="item-banner img-holder"
+              className="item__banner img-holder"
               style={
                 {
                   "--width": "700px",
@@ -113,9 +113,9 @@ const Gallery = () => {
               />
             </figure>
           </li>
-          <li className="gallery-item">
+          <li className="gallery__item">
             <figure
-              className="item-banner img-holder"
+              className="item__banner img-holder"
               style={
                 {
                   "--width": "700px",
