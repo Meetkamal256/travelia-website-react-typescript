@@ -45,6 +45,9 @@ const Destination = () => {
               </div>
             );
           })}
+          <a href="#" className="btn btn-primary" type="button">
+            View All Destinations
+          </a>
         </div>
       </div>
     </section>

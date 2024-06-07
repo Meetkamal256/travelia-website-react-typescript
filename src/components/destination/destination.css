@@ -1,3 +1,11 @@
+.destination__container {
+  text-align: center;
+}
+
+.destination__container .section__title {
+  margin-block-end: 65px;
+}
+
 .desti__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -32,18 +40,28 @@
   overflow: hidden;
 }
 
+.card__content {
+  text-align: left;
+}
+
 .card__content .card__title {
-    margin-block: 30px 10px;
+  margin-block: 30px 10px;
 }
 
 .card__rating {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-block-start: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block-start: 15px;
 }
 
 .card__rating .rating__icon {
-    color: var(--text-sunglow);
+  color: var(--text-sunglow);
 }
 
+/* Responsive styles */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .desti__list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
