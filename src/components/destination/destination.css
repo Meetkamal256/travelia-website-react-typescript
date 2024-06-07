@@ -50,7 +50,7 @@
 }
 
 .card__content .card__title:is(:hover, :focus-visible) {
-    color: var(--bg-majorelle-blue);
+  color: var(--bg-majorelle-blue);
 }
 
 .card__rating {
@@ -70,6 +70,12 @@
 }
 
 /* Responsive styles */
+@media screen and (min-width: 1400px) {
+  .desti__list {
+    gap: 50px;
+  }
+}
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .desti__list {
     grid-template-columns: 1fr 1fr;
