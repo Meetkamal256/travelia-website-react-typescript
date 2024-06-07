@@ -36,10 +36,10 @@ const Destination = () => {
                   </h3>
                   <address className="card__text">{address}</address>
                   <div className="card__rating">
-                    <span className="span">{review}</span>
                     <p className="rating__text">
-                      <FaRegStar /> {rating}
+                      <FaRegStar className="rating__icon" /> {rating}
                     </p>
+                    <span>{review}</span>
                   </div>
                 </div>
               </div>

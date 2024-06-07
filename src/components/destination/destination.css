@@ -36,3 +36,14 @@
     margin-block: 30px 10px;
 }
 
+.card__rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-block-start: 15px;
+}
+
+.card__rating .rating__icon {
+    color: var(--text-sunglow);
+}
+
