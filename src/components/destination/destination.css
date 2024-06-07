@@ -34,12 +34,6 @@
   font-weight: var(--weight-bold);
 }
 
-.img-holder {
-  aspect-ratio: var(--width) / var(--height);
-  background-color: var(--bg-gainsboro);
-  overflow: hidden;
-}
-
 .card__content {
   text-align: left;
 }
