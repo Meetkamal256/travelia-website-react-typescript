@@ -1,4 +1,4 @@
-          <p className="section__subtitle">What we Serve</p>
+<p className="section__subtitle">What we Serve</p>;
 import "./service.css";
 import { serviceList } from "../../data";
 

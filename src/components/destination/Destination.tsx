@@ -2,6 +2,16 @@ import "./destination.css";
 import { destinationList } from "../../data";
 import { FaRegStar } from "react-icons/fa";
 
+type DestinationItem = {
+  id: number;
+  image: string;
+  price: string;
+  title: string;
+  address: string;
+  review: string;
+  rating: number;
+};
+
 const Destination = () => {
   return (
     <section id="destination">
@@ -9,7 +19,7 @@ const Destination = () => {
         <p className="section__subtitle">Top Destination</p>
         <h2 className="section__title title">Explore Top Destination</h2>
         <div className="desti__list">
-          {destinationList.map((list) => {
+          {destinationList.map((list: DestinationItem) => {
             const { id, image, price, title, address, review, rating } = list;
             return (
               <div className="desti__card" key={id}>
