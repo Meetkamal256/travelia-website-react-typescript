@@ -9,8 +9,8 @@ const Footer = () => {
     <footer>
       <div className="container footer__container">
         <div className="footer__1">
-          <a href="#" className="footer__logo">
-            <img src={footerLogo} alt="footer logo" />
+          <a href="#">
+            <img src={footerLogo} alt="footer logo" className="footer__logo" />
           </a>
           <p className="footer__text">
             We always make our customer happy by providing as many choices as

@@ -1,5 +1,35 @@
 .footer__container {
-    display: grid;
-    grid-template-columns: 1fr 0.5fr 0.6fr 0.6fr 0.6fr 1fr;
-    gap: 60px;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.6fr 0.6fr 1fr;
+  gap: 60px;
+}
+
+.footer__1 .footer__logo {
+  width: 180px;
+}
+
+.footer__1 .footer__text {
+  margin-block: 35px 30px;
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__socials .social__link {
+  color: var(--bg-majorelle-blue);
+  font-size: 20px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-circle);
+  transition: var(--transition-1);
+}
+
+.footer__socials .social__link:is(:hover, :focus-visible) {
+    background: var(--bg-majorelle-blue);
+    color: var(--text-white);
+
 }
