@@ -137,6 +137,24 @@ const Footer = () => {
             </button>
           </form>
         </div>
+
+        <div className="copyright">
+          <p className="copyright__text">
+            Copyright 2023 &copy; Travelia Website.
+          </p>
+          <ul className="copyright__list">
+            <li>
+              <a href="#" className="copyright__link">
+                Terms and Conditions
+              </a>
+            </li>
+            <li>
+              <a href="#" className="copyright__link">
+                Privacy and Policy
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   );
