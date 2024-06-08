@@ -86,7 +86,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-
+        
         <div className="footer__4">
           <p className="footer__title">Support</p>
           <ul className="footer__list">
@@ -117,7 +117,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-
+        
         <div className="footer__5">
           <p className="footer__title">Get In Touch</p>
           <p className="footer__text">
@@ -137,24 +137,21 @@ const Footer = () => {
             </button>
           </form>
         </div>
-
-        <div className="copyright">
-          <p className="copyright__text">
-            Copyright 2023 &copy; Travelia Website.
-          </p>
-          <ul className="copyright__list">
-            <li>
-              <a href="#" className="copyright__link">
-                Terms and Conditions
-              </a>
-            </li>
-            <li>
-              <a href="#" className="copyright__link">
-                Privacy and Policy
-              </a>
-            </li>
-          </ul>
-        </div>
+      </div>
+      <div className="copyright container">
+        <p className="copyright__text">Copyright 2023 &copy; Travelia Website</p>
+        <ul className="copyright__list">
+          <li>
+            <a href="#" className="copyright__link">
+              Terms and Conditions
+            </a>
+          </li>
+          <li>
+            <a href="#" className="copyright__link">
+              Privacy and Policy
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   );
