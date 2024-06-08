@@ -6,7 +6,7 @@ import { CiPaperplane } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <div className="container footer__container">
         <div className="footer__1">
           <a href="#">

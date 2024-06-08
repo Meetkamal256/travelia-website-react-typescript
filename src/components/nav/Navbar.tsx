@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState<boolean>(false);
 
   return (
-    <nav>
+    <nav className="active">
       <div className="container nav__container">
         <div className="nav__logo">
           <img src={Logo} alt="" width="187" height="38" />
@@ -14,7 +14,7 @@ const Navbar = () => {
 
         <ul className="nav__items">
           <li>
-            <a href="/">Home</a>
+            <a href="#hero">Home</a>
           </li>
           <li>
             <a href="#about">About</a>

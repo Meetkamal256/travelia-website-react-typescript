@@ -1,5 +1,5 @@
 #hero {
-  padding-block-start: 150px;
+  padding-block-start: 180px;
   background-image: url(../../assets/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,12 +73,12 @@
   .hero__container {
     grid-template-columns: 1fr;
   }
-  
+
   .hero__banner {
     max-width: 550px;
     margin-inline: auto;
   }
-  
+
   .wrapper {
     flex-wrap: wrap;
   }
@@ -86,9 +86,9 @@
 
 @media screen and (min-width: 0) and (max-width: 576px) {
   #hero {
-    padding-block-start: 100px;
+    padding-block-start: 150px;
   }
-  
+
   .btn__img {
     height: 60px;
     width: 60px;

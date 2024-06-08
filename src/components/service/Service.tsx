@@ -4,7 +4,7 @@ import { serviceList } from "../../data";
 
 const Service = () => {
   return (
-    <section id="service">
+    <section id="services">
       <div className="container service__container">
         <div className="title__wrapper">
           <h2 className="title section__title">Top Values For You</h2>

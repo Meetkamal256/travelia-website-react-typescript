@@ -4,7 +4,7 @@ import expShape from "../../assets/exp-shape.svg";
 
 const Experience = () => {
   return (
-    <section id="experience">
+    <section id="about">
       <div className="container experience__container">
         <figure className="exp__banner">
           <img
