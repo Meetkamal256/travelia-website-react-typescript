@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 import "./navbar.css";
 import Logo from "../../assets/logo.svg";
 
@@ -14,19 +15,29 @@ const Navbar = () => {
 
         <ul className="nav__items">
           <li>
-            <a href="#hero">Home</a>
+            <Link to="hero" smooth={true} offset={-150} duration={500}>
+              Home
+            </Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link to="about" smooth={true} offset={-150} duration={500}>
+              About
+            </Link>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <Link to="services" smooth={true} offset={-150} duration={500}>
+              Services
+            </Link>
           </li>
           <li>
-            <a href="#destination">Pricing</a>
+            <Link to="destination" smooth={true} offset={-150} duration={500}>
+              Pricing
+            </Link>
           </li>
           <li>
-            <a href="#footer">Contact</a>
+            <Link to="footer" smooth={true} offset={-150} duration={500}>
+              Contact
+            </Link>
           </li>
         </ul>
 
@@ -58,19 +69,29 @@ const Navbar = () => {
           </div>
           <ul className="mobile-nav__items">
             <li>
-              <a href="/">Home</a>
+              <Link to="hero" smooth={true} offset={-150} duration={500}>
+                Home
+              </Link>
             </li>
             <li>
-              <a href="#about">About</a>
+              <Link to="about" smooth={true} offset={-150} duration={500}>
+                About
+              </Link>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <Link to="services" smooth={true} offset={-150} duration={500}>
+                Services
+              </Link>
             </li>
             <li>
-              <a href="#destination">Pricing</a>
+              <Link to="destination" smooth={true} offset={-150} duration={500}>
+                Pricing
+              </Link>
             </li>
             <li>
-              <a href="#footer">Contact</a>
+              <Link to="footer" smooth={true} offset={800} duration={500}>
+                Contact
+              </Link>
             </li>
           </ul>
 
