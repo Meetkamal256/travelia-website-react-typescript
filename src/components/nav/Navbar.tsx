@@ -23,6 +23,10 @@ const Navbar = () => {
     };
   }, []);
 
+  const closeNavbar = () => {
+    setIsNavShowing(false);
+  };
+
   return (
     <nav className={isScrolled ? "active" : ""}>
       <div className="container nav__container">
@@ -86,27 +90,57 @@ const Navbar = () => {
           </div>
           <ul className="mobile-nav__items">
             <li>
-              <Link to="hero" smooth={true} offset={-150} duration={500}>
+              <Link
+                to="hero"
+                smooth={true}
+                offset={-150}
+                duration={500}
+                onClick={closeNavbar}
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link to="about" smooth={true} offset={-150} duration={500}>
+              <Link
+                to="about"
+                smooth={true}
+                offset={-150}
+                duration={500}
+                onClick={closeNavbar}
+              >
                 About
               </Link>
             </li>
             <li>
-              <Link to="services" smooth={true} offset={-150} duration={500}>
+              <Link
+                to="services"
+                smooth={true}
+                offset={-150}
+                duration={500}
+                onClick={closeNavbar}
+              >
                 Services
               </Link>
             </li>
             <li>
-              <Link to="destination" smooth={true} offset={-150} duration={500}>
+              <Link
+                to="destination"
+                smooth={true}
+                offset={-150}
+                duration={500}
+                onClick={closeNavbar}
+              >
                 Pricing
               </Link>
             </li>
             <li>
-              <Link to="footer" smooth={true} offset={800} duration={500}>
+              <Link
+                to="footer"
+                smooth={true}
+                offset={800}
+                duration={500}
+                onClick={closeNavbar}
+              >
                 Contact
               </Link>
             </li>
