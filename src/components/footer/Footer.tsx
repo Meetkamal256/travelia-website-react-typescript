@@ -138,7 +138,7 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      <div className="copyright container">
+      <div className="copyright">
         <p className="copyright__text">Copyright 2023 &copy; Travelia Website</p>
         <ul className="copyright__list">
           <li>

@@ -145,7 +145,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-
+          
           <div className="mobile-nav__signin-signup">
             <a href="#" className="btn btn-primary">
               Login
