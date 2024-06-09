@@ -1,4 +1,4 @@
-.footer__container {
+.footer__top {
   display: grid;
   grid-template-columns: 1fr 0.5fr 0.6fr 0.6fr 1fr;
   gap: 60px;
@@ -92,27 +92,24 @@
   padding-block: 30px;
   margin-block-start: 80px;
   border-block-start: 1px solid var(--border-gainsboro);
-  text-align: center;
 }
 
 .copyright__list {
   display: flex;
   gap: 30px;
   white-space: nowrap;
-  margin-inline: auto;
-
 }
 
 /* Responsive styles */
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .footer__container {
+  .footer__top {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 768px) {
-  .footer__container {
+  .footer__top {
     grid-template-columns: 1fr;
   }
 
