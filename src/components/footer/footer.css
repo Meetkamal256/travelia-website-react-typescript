@@ -112,7 +112,7 @@
   .footer__top {
     grid-template-columns: 1fr;
   }
-
+  
   .copyright {
     flex-direction: column;
   }
