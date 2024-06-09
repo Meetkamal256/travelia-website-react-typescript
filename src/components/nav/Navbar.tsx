@@ -1,13 +1,30 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import "./navbar.css";
 import Logo from "../../assets/logo.svg";
 
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState<boolean>(false);
+  const [isScrolled, setIsScrolled] = useState<boolean>(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className="active">
+    <nav className={isScrolled ? "active" : ""}>
       <div className="container nav__container">
         <div className="nav__logo">
           <img src={Logo} alt="" width="187" height="38" />
