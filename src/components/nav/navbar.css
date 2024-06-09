@@ -12,6 +12,8 @@ nav {
 
 nav.active {
   position: fixed;
+  top: 0;
+  left: 0;
   background: var(--bg-white);
   box-shadow: var(--shadow-1);
   animation: slideIn 500ms ease forward;
