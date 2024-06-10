@@ -112,8 +112,14 @@
   .footer__top {
     grid-template-columns: 1fr;
   }
-  
+
   .copyright {
     flex-direction: column;
+  }
+
+  .copyright__list {
+    display: flex;
+    gap: 30px;
+    white-space: wrap;
   }
 }
